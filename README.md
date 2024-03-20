@@ -1,4 +1,4 @@
-Original README click [here](url="https://github.com/elementlo/facechain/blob/main/README_ORI.md").
+Original README click [here](https://github.com/elementlo/facechain/blob/main/README_ORI.md).
 
 * Force to use the package diffusers v0.25.0 due to depracated code checked in 0.26.0.
 * Make sure that "loss.requires_grad = True" is called in train_text_to_image_lora.py
