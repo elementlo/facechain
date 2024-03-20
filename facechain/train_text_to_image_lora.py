@@ -1031,7 +1031,7 @@ def main():
                 # Gather the losses across all processes for logging (if we use distributed training).
                 avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
                 train_loss += avg_loss.item() / args.gradient_accumulation_steps
-
+                loss.requires_grad = True
                 # Backpropagate
                 accelerator.backward(loss)
                 if accelerator.sync_gradients:
