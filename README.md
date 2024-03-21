@@ -9,7 +9,7 @@ Original README click [here](https://github.com/elementlo/facechain/blob/main/RE
 # Note: at least 15GB of memory needs to be allocated.
 
 # Step2: Entry the Notebook cell，clone FaceChain from github:
-!GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/modelscope/facechain.git --depth 1
+!GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/elementlo/facechain.git --depth 1
 
 # Step3: Change the working directory to facechain, and install the dependencies:
 import os
